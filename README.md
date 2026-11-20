@@ -2,6 +2,8 @@
 
 A management-review Power BI report tracking **1,800+ infrastructure projects** across financials, physical vs financial progress, risks and milestone pendency.
 
+[Download the Power BI report (.pbix)](https://github.com/SajanaLal/power-bi-project-monitoring-dashboard/raw/refs/heads/main/PBI%20Project_Sajana.pbix)
+
 ## Dashboard
 
 ![Full project monitoring dashboard](Dashboard.png)
