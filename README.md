@@ -2,9 +2,23 @@
 
 A management-review Power BI report tracking **1,800+ infrastructure projects** across financials, physical vs financial progress, risks and milestone pendency.
 
+## Dashboard
+
+![Full project monitoring dashboard](Dashboard.png)
+
+*Overview of project counts, financial KPIs, risk, budget allocation, milestone pendency and progress.*
+
+![Pendency Details drill-through](Pendency.png)
+
+*Drill-through to project-level cost, awarded amount and expenditure for a selected pendency category.*
+
+![Custom budget allocation tooltip](Tooltip.png)
+
+*Custom tooltip displays project codes, districts and awarded amounts for the selected budget band.*
+
 ## Highlights
 
-- **9 integrated tables**, modelled in Power Query with clean relationships
+- **9 source tables plus 2 bridge tables**, modelled in Power Query with clean relationships
 - **20+ DAX measures** covering progress, awarded amount, expenditure, billing, approvals and risk
 - **Delivery-expenditure gap analysis**: compares physical progress against financial spend to flag projects that are spending without moving
 - **Milestone lifecycle logic**: derives each project's stage (DPR → AS → TS → NIT → Awarded → Started → Completed) from date fields, and analyses pendency by stage
